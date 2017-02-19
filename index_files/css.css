@@ -1,0 +1,34 @@
+@font-face {
+  font-family: 'Economica';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Economica Bold'), local('Economica-Bold'), url(http://fonts.gstatic.com/s/economica/v4/UK4l2VEpwjv3gdcwbwXE9Ogdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
+}
+
+.fixed {
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  background-image: url('bg-stone.png');
+  display: block;
+  width: 100%;
+  margin: auto;
+  left: 0;
+  right: 0;
+  padding-top: 1.25%;
+  padding-bottom: 1.25%;
+}
+
+.fixed h2 {
+  text-align: center;
+  color: #ffffff;
+}
+
+body {
+  overflow: hidden !important;
+}
+
+
+#video-placeholder {
+  display: none !important;
+}

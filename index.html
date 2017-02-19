@@ -1,0 +1,90 @@
+<html>
+<head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta charset="utf-8">
+        <meta property="og:type" content="profile">
+        <meta property="og:url" content="index.html">
+        <meta property="og:image" content="index_files/logo.png">
+        <link rel="shortcut icon" href="index_files/favicon.html">
+	<title>Aurifex Network - Enjoy your stay!</title>
+        <script src="index_files/jquery.js"></script>
+        <link href="index_files/bootstrap.css" rel="stylesheet">
+        <link href="index_files/portal.css" rel="stylesheet">
+        <link href="index_files/animate.css" rel="stylesheet">
+        <link href="index_files/css.css" rel="stylesheet" type="text/css">
+        <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    </head>
+    <body>
+	<script src="../cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.5.12/clipboard.min.js"></script>
+        <div class="container">
+            <div class="text-center img-responsive" style="margin-bottom: 45px">
+                <img src="index_files/logo.png" id="logo" class="animated infinite pulse" style="">
+            </div>
+            <br>
+		</script>
+          <!--  <br>
+            <br> -->
+            <br>
+            <div class="row text-center" style="margin-top: 45px">
+                <div class="col-md-3 text-center img-responsive">
+                    <a href="">
+                        <img src="index_files/home.png" class="animated bounceInUp ImgLink" id="home" style="top: 0px;">
+                    </a>
+                    <h3 class="Title">Home</h3>
+                </div>
+                <div class="col-md-3">
+                    <a href="vote/index.html">
+                        <img src="index_files/vote.png" class="animated bounceInUp imgLink" id="vote">
+                    </a>
+                    <h3 class="Title">Vote</h3>
+                </div>
+                <div class="col-md-3">
+                    <a href="http://aurifexnetwork.com/forum/">
+                        <img src="index_files/forums.png" class="animated bounceInUp imgLink" id="forums">
+                    </a>
+                    <h3 class="Title">Forums</h3>
+                </div>
+                <div class="col-md-3">
+                    <a href="http://store.aurifexnetwork.com">
+                        <img src="index_files/donate.png" class="animated bounceInUp ImgLink" id="donate">
+                    </a>
+                    <h3 class="Title">Donate</h3>
+                </div>
+            </div>
+        </div>
+<div class="fixed">
+<h2><span id="playerprefix">Join Now:</span> <a href="#" onclick="serverIP()">play.aurifexnetwork.com</a>! </h2>
+</div>
+<!-- Old youtube method <div class="gaf210imvustylez_youtubebox" style="width:1px;height:1px;overflow:hidden"><iframe width="300" height="300" src="https://www.youtube.com/embed/1U84yMX_aZg?list=UUSa8IUd1uEjlREMa21I3ZPQ&amp;autoplay=1&amp;loop=1" frameborder="0" allowfullscreen></iframe></div> -->
+        <script>
+	jQuery.easing['jswing']=jQuery.easing['swing'];jQuery.extend(jQuery.easing,{easeOutBounce:function(x,t,b,c,d){if((t/=d)<(1/2.75)){return c*(7.5625*t*t)+b}else if(t<(2/2.75)){return c*(7.5625*(t-=(1.5/2.75))*t+.75)+b}else if(t<(2.5/2.75)){return c*(7.5625*(t-=(2.25/2.75))*t+.9375)+b}else{return c*(7.5625*(t-=(2.625/2.75))*t+.984375)+b}}});
+
+	$('.imgLink').hover(function() {
+		$(this).stop().animate({
+			top: -12
+		}, 450, "easeOutBounce");
+	}, function() {
+		$(this).stop().animate({
+			top: 0
+		}, 450, "easeOutBounce");
+	});
+	</script>
+  <script src="index_files/firefly.js" type="text/javascript">
+    </script>
+    <script>
+    $( document ).ready(function() {
+      $.firefly({
+	      color: '#acc1e2',
+	      minPixel: 1,
+	      maxPixel: 3,
+	      total : 200,
+	      on: 'body'
+      });
+      setInterval(updateTimerDisplay, 1000);
+      ping();
+      setInterval(ping, 5000);
+    });
+    </script>
+    <div id="video-placeholder"></div>
+    </body>
+</html>
